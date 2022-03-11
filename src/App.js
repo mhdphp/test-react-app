@@ -7,18 +7,13 @@ function moreInfo() {
 
 function App() {
   return (
-    <div style={{padding: '75px',
-                textAlign: 'center', 
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                backgroundColor:'yellowgreen'}}>
+    <div className='App' >
       
       <div style={{width: '75%', 
                   backgroundColor: '#e6e6ff', 
                   padding: '50px'}}>
         <div>
-          <h1>Landing Page Title</h1>
+          <h1 id='pageHeader'>Landing Page Title</h1>
         </div>
         <div>
           <img 

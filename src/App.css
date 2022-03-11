@@ -1,5 +1,13 @@
 .App {
+  padding: 75px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pageHeader {
+  margin-bottom: 50px;
 }
 
 .App-logo {
